@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/adetola/convert/converter"
+	"github.com/mintoleda/convert/converter"
 	"github.com/spf13/cobra"
 )
 

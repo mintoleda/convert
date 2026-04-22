@@ -1,4 +1,4 @@
-# convert
+# cv
 
 A fast and versatile CLI tool for converting files between various formats.
 
@@ -13,7 +13,7 @@ A fast and versatile CLI tool for converting files between various formats.
 Ensure you have [Go](https://golang.org/doc/install) installed.
 
 ```bash
-go install github.com/mintoleda/convert@latest
+go install github.com/mintoleda/convert/cv@latest
 ```
 
 ### Dependencies
@@ -35,7 +35,7 @@ brew install poppler
 ### Basic Command
 
 ```bash
-convert <input_file> <output_file>
+cv <input_file> <output_file>
 ```
 
 ### Examples
@@ -43,34 +43,34 @@ convert <input_file> <output_file>
 #### Data
 ```bash
 # Convert JSON to CSV
-convert data.json data.csv
+cv data.json data.csv
 
 # Convert CSV to YAML
-convert data.csv data.yaml
+cv data.csv data.yaml
 ```
 
 #### Images
 ```bash
 # Convert PNG to JPEG
-convert image.png image.jpg
+cv image.png image.jpg
 
 # Convert JPEG to WEBP
-convert image.jpg image.webp
+cv image.jpg image.webp
 ```
 
 #### Documents
 ```bash
 # Convert DOCX to PDF
-convert document.docx document.pdf
+cv document.docx document.pdf
 
 # Convert Markdown to PDF
-convert README.md README.pdf
+cv README.md README.pdf
 
 # Extract text from PDF
-convert document.pdf document.txt
+cv document.pdf document.txt
 
 # Extract PDF content as Markdown
-convert document.pdf document.md
+cv document.pdf document.md
 ```
 
 ### Options
