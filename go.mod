@@ -1,4 +1,4 @@
-module github.com/adetola/convert
+module github.com/mintoleda/convert
 
 go 1.26.1
 

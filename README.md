@@ -13,7 +13,7 @@ A fast and versatile CLI tool for converting files between various formats.
 Ensure you have [Go](https://golang.org/doc/install) installed.
 
 ```bash
-go install github.com/adetola/convert@latest
+go install github.com/mintoleda/convert@latest
 ```
 
 ### Dependencies
